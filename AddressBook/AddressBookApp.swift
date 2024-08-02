@@ -17,8 +17,7 @@ struct AddressBookApp: App {
 
     let persistenceController = PersistenceController.shared
 
-    var body: some Scene
-    {
+    var body: some Scene {
         WindowGroup
         {
             WelcomeView()

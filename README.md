@@ -17,8 +17,8 @@ The app does the following:
     - App supports Light & Dark mode, user can change mode by going into device dark mode settings.
 
 ## Pre-requisites
-- [Xcode 12.0](https://apps.apple.com/us/app/xcode/id497799835?mt=12) or above
-- iOS device or emulator running iOS 12 or above
+- [Xcode 15.0](https://apps.apple.com/us/app/xcode/id497799835?mt=15) or above
+- iOS device or emulator running iOS 17 or above
 
 ## Getting Started
 1. [Install Xcode](https://developer.apple.com/xcode/)
@@ -27,16 +27,16 @@ The app does the following:
 
 ## Key Tools & Technologies
 - **Database:** CoreData
-- **UI:** SwiftUI 2.0
+- **UI:** SwiftUI 5.0
 - **Authentication:** Facebook login
 - **API/Service calls:** Alamofire
 - **IDE:** [Xcode](https://developer.apple.com/xcode/)
-- **Framework:** MVC
+- **Framework:** MVVM
 
 ## Screenshots
 <img src="https://github.com/differenz-system/AddressBook.iOS/blob/master/ScreenShots/login.png" width="280"><img src="https://github.com/differenz-system/AddressBook.iOS/blob/master/ScreenShots/list.png" width="280"> <img src="https://github.com/differenz-system/AddressBook.iOS/blob/master/ScreenShots/detail.png" width="280"> 
 
 ## Support
-If you've found an error in this sample, please [report an issue](https://github.com/differenz-system/AddressBook.Android/issues/new). You can also send your feedback and suggestions at info@differenzsystem.com
+If you've found an error in this sample, please [report an issue](https://github.com/differenz-system/Addressbook_iOS_SwiftUI/issues/new). You can also send your feedback and suggestions at info@differenzsystem.com
 
 Happy coding!
