@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4D1FC88C-5ED2-486A-A96C-5CC3C42535ED"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D941CB95-63C6-4569-9703-3FB249B4FD41"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AddressBook/View/CustomView/ContactCellView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D941CB95-63C6-4569-9703-3FB249B4FD41 - 7530bd8c87251224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in AddressBook.ContactCellView.body.getter : some"
+                  moduleName = "AddressBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/differenz148/Downloads/Addressbook_iOS/AddressBook/View/CustomView/ContactCellView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "D941CB95-63C6-4569-9703-3FB249B4FD41 - 7530bd8c87251205"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in AddressBook.ContactCellView.body.getter : some"
+                  moduleName = "AddressBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/differenz148/Downloads/Addressbook_iOS/AddressBook/View/CustomView/ContactCellView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

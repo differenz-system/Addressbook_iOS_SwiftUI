@@ -10,6 +10,9 @@ import CoreData
 
 @main
 struct AddressBookApp: App {
+    
+    //MARK: - Variables
+    @StateObject var viewRouter : ViewRouter = ViewRouter(root: AppPage.login)
     @Environment(\.managedObjectContext) var managedObjectContext
 
     let persistenceController = PersistenceController.shared
@@ -18,10 +21,9 @@ struct AddressBookApp: App {
     {
         WindowGroup
         {
-            LoginView(loginVM: LoginViewModel())
+            WelcomeView()
+                .environmentObject(self.viewRouter)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
-    
-   
 }

