@@ -1,7 +1,7 @@
 # AddressBook.iOS
 
 ## Overview
-This repository contains **Address Book** application for iOS with SwiftUI that shows design & coding practices followed by **[Differenz System](http://www.differenzsystem.com/?tab=readme-ov-file&utm_source=github&utm_medium=Addressbook_iOS_SwiftUI)**.
+This repository contains **Address Book** application for iOS with SwiftUI that shows design & coding practices followed by **[Differenz System](http://www.differenzsystem.com?tab=readme-ov-file&utm_source=github&utm_medium=Addressbook_iOS_SwiftUI)**.
 
 The app does the following:
 1. **Login:** 
