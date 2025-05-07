@@ -34,7 +34,7 @@ The app does the following:
 - **Framework:** MVVM
 
 ## Screenshots
-<img src="https://github.com/differenz-system/AddressBook.iOS/blob/master/ScreenShots/login.png" width="280"><img src="https://github.com/differenz-system/AddressBook.iOS/blob/master/ScreenShots/list.png" width="280"> <img src="https://github.com/differenz-system/AddressBook.iOS/blob/master/ScreenShots/detail.png" width="280"> 
+<img src="https://github.com/samarth-naik1906/Addressbook_iOS_SwiftUI/blob/main/ScreenShots/login.png" width="280"><img src="https://github.com/samarth-naik1906/Addressbook_iOS_SwiftUI/blob/main/ScreenShots/list.png" width="280"> <img src="https://github.com/samarth-naik1906/Addressbook_iOS_SwiftUI/blob/main/ScreenShots/details.png" width="280"> 
 
 ## Support
 If you've found an error in this sample, please [report an issue](https://github.com/differenz-system/Addressbook_iOS_SwiftUI/issues/new). You can also send your feedback and suggestions at info@differenzsystem.com
