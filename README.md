@@ -5,7 +5,7 @@ This repository contains **Address Book** application for iOS with SwiftUI that 
 
 The app does the following:
 1. **Login:** 
-    - User can login via facebook or email/password. 
+    - User can login via email/password. 
 2. **Home:** 
     - It will list all the saved contacts. 
     - It has the option to add a new contact on the top right.
@@ -23,18 +23,18 @@ The app does the following:
 ## Getting Started
 1. [Install Xcode](https://developer.apple.com/xcode/)
 2. Clone this sample repository
-3. Open AddressBook.xcworkspace file to run project
+3. Open AddressBook.xcodeproj file to run project
 
 ## Key Tools & Technologies
 - **Database:** CoreData
 - **UI:** SwiftUI 5.0
-- **Authentication:** Facebook login
+- **Authentication:** Firebase
 - **API/Service calls:** Alamofire
 - **IDE:** [Xcode](https://developer.apple.com/xcode/)
 - **Framework:** MVVM
 
 ## Screenshots
-<img src="https://github.com/differenz-system/AddressBook.iOS/blob/master/ScreenShots/login.png" width="280"><img src="https://github.com/differenz-system/AddressBook.iOS/blob/master/ScreenShots/list.png" width="280"> <img src="https://github.com/differenz-system/AddressBook.iOS/blob/master/ScreenShots/detail.png" width="280"> 
+<img src="https://github.com/samarth-naik1906/Addressbook_iOS_SwiftUI/blob/main/ScreenShots/login.png" width="280"><img src="https://github.com/samarth-naik1906/Addressbook_iOS_SwiftUI/blob/main/ScreenShots/list.png" width="280"> <img src="https://github.com/samarth-naik1906/Addressbook_iOS_SwiftUI/blob/main/ScreenShots/details.png" width="280"> 
 
 ## Support
 If you've found an error in this sample, please [report an issue](https://github.com/differenz-system/Addressbook_iOS_SwiftUI/issues/new). You can also send your feedback and suggestions at info@differenzsystem.com
