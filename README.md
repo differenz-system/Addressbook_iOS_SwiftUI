@@ -5,7 +5,7 @@ This repository contains **Address Book** application for iOS with SwiftUI that 
 
 The app does the following:
 1. **Login:** 
-    - User can login via facebook or email/password. 
+    - User can login via email/password. 
 2. **Home:** 
     - It will list all the saved contacts. 
     - It has the option to add a new contact on the top right.
@@ -23,12 +23,12 @@ The app does the following:
 ## Getting Started
 1. [Install Xcode](https://developer.apple.com/xcode/)
 2. Clone this sample repository
-3. Open AddressBook.xcworkspace file to run project
+3. Open AddressBook.xcodeproj file to run project
 
 ## Key Tools & Technologies
 - **Database:** CoreData
 - **UI:** SwiftUI 5.0
-- **Authentication:** Facebook login
+- **Authentication:** Firebase
 - **API/Service calls:** Alamofire
 - **IDE:** [Xcode](https://developer.apple.com/xcode/)
 - **Framework:** MVVM
