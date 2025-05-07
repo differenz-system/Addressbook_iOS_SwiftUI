@@ -8,7 +8,7 @@
 
 import SwiftUI
 import CoreData
-import FBSDKLoginKit
+//import FBSDKLoginKit
 import FirebaseAuth
 
 struct LoginView: View {
@@ -81,32 +81,32 @@ struct LoginView: View {
                         .alert(isPresented: $loginVM.showingAlert) {
                             Alert(title: Text(loginVM.errorMessage), message: Text(""))
                         }
-                        
-                        Text(IdentifiableKeys.Labels.kOr)
-                            .bold()
-                            .padding(.horizontal,10)
-                        
-                        Button(action: {
-                            self.loginVM.facebookLogin {
-                                self.viewRouters.popToRoot()
-                                self.viewRouters.updateRoot(to: .addressList)
-                            }
-                        }) {
-                            HStack(spacing: 20) {
-                                Image(IdentifiableKeys.ImageName.kic_facebook)
-                                    .foregroundColor(.white)
-                                
-                                Text(IdentifiableKeys.Buttons.kFBLogin)
-                                    .font(.system(size: UIScreen.main.bounds.height/40))
-                                    .bold()
-                                    .foregroundColor(.white)
-                            }
-                            .frame(width: UIScreen.main.bounds.width/1.20, height: UIScreen.main.bounds.height/15)
-                            .background(
-                                Capsule()
-                                    .fill(Color.CustomColor.kDarkBlue))
-                            .shadow(color: .gray, radius: 5, x: 0, y: 5)
-                        }
+//                        
+//                        Text(IdentifiableKeys.Labels.kOr)
+//                            .bold()
+//                            .padding(.horizontal,10)
+//                        
+//                        Button(action: {
+//                            self.loginVM.facebookLogin {
+//                                self.viewRouters.popToRoot()
+//                                self.viewRouters.updateRoot(to: .addressList)
+//                            }
+//                        }) {
+//                            HStack(spacing: 20) {
+//                                Image(IdentifiableKeys.ImageName.kic_facebook)
+//                                    .foregroundColor(.white)
+//                                
+//                                Text(IdentifiableKeys.Buttons.kFBLogin)
+//                                    .font(.system(size: UIScreen.main.bounds.height/40))
+//                                    .bold()
+//                                    .foregroundColor(.white)
+//                            }
+//                            .frame(width: UIScreen.main.bounds.width/1.20, height: UIScreen.main.bounds.height/15)
+//                            .background(
+//                                Capsule()
+//                                    .fill(Color.CustomColor.kDarkBlue))
+//                            .shadow(color: .gray, radius: 5, x: 0, y: 5)
+//                        }
                     }
                     Spacer()
                 }
