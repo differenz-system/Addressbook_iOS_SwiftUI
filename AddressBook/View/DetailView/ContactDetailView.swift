@@ -15,7 +15,7 @@ struct ContactDetailView: View {
     @EnvironmentObject private var viewRouters : ViewRouter<AppPage>
     @State var isProfileEdit : Bool = false
     @State var contactData: ContactModel?
-    @StateObject var detailVM: DetailViewModel = DetailViewModel()
+    @State var detailVM: DetailViewModel = DetailViewModel()
     @Environment(\.managedObjectContext) var managedObjectContext
     
     var body: some View {

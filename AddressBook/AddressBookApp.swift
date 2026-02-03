@@ -23,6 +23,7 @@ struct AddressBookApp: App {
             WelcomeView()
                 .environmentObject(self.viewRouter)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                
         }
     }
 }

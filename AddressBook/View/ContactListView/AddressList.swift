@@ -12,7 +12,7 @@ import CoreData
 struct AddressList: View {
     
     //MARK: - Variables
-    @StateObject var contactListVM: ContactListViewModel = ContactListViewModel()
+    @State var contactListVM: ContactListViewModel = ContactListViewModel()
     @FetchRequest(entity: ContactList.entity(),sortDescriptors: [NSSortDescriptor(keyPath: \ContactList.name, ascending: true)])
     var cList: FetchedResults<ContactList>
     
@@ -22,7 +22,7 @@ struct AddressList: View {
                 .overlay(navigationForAddressList(), alignment: .center)
             
             MySearchBar(search: self.$contactListVM.searchText)
-                .onChange(of: self.contactListVM.searchText) { value in
+                .onChange(of: self.contactListVM.searchText) { _, _ in
                     self.contactListVM.searchContact()
                 }
             

@@ -15,7 +15,7 @@ struct LoginView: View {
     
     //MARK: - Variables
     @EnvironmentObject private var viewRouters : ViewRouter<AppPage>
-    @StateObject var loginVM: LoginViewModel = LoginViewModel()
+    @State var loginVM: LoginViewModel = LoginViewModel()
     
     var body: some View {
         VStack {
@@ -81,32 +81,6 @@ struct LoginView: View {
                         .alert(isPresented: $loginVM.showingAlert) {
                             Alert(title: Text(loginVM.errorMessage), message: Text(""))
                         }
-//                        
-//                        Text(IdentifiableKeys.Labels.kOr)
-//                            .bold()
-//                            .padding(.horizontal,10)
-//                        
-//                        Button(action: {
-//                            self.loginVM.facebookLogin {
-//                                self.viewRouters.popToRoot()
-//                                self.viewRouters.updateRoot(to: .addressList)
-//                            }
-//                        }) {
-//                            HStack(spacing: 20) {
-//                                Image(IdentifiableKeys.ImageName.kic_facebook)
-//                                    .foregroundColor(.white)
-//                                
-//                                Text(IdentifiableKeys.Buttons.kFBLogin)
-//                                    .font(.system(size: UIScreen.main.bounds.height/40))
-//                                    .bold()
-//                                    .foregroundColor(.white)
-//                            }
-//                            .frame(width: UIScreen.main.bounds.width/1.20, height: UIScreen.main.bounds.height/15)
-//                            .background(
-//                                Capsule()
-//                                    .fill(Color.CustomColor.kDarkBlue))
-//                            .shadow(color: .gray, radius: 5, x: 0, y: 5)
-//                        }
                     }
                     Spacer()
                 }

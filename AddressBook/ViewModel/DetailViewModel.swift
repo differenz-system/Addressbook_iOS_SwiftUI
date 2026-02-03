@@ -7,18 +7,19 @@
 
 import Foundation
 
-public class DetailViewModel: ObservableObject {
+@Observable
+public class DetailViewModel {
     
     //MARK: - Variables
-    @Published var isToggle : Bool = false
-    @Published var name: String = ""
-    @Published var email: String = ""
-    @Published var mobile: String = ""
+    var isToggle : Bool = false
+    var name: String = ""
+    var email: String = ""
+    var mobile: String = ""
     
-    @Published var showingAlert = false
-    @Published var showingDelAlert = false
-    @Published var errorTitle = ""
-    @Published var errorMessage = ""
+    var showingAlert = false
+    var showingDelAlert = false
+    var errorTitle = ""
+    var errorMessage = ""
     
     func isValidUserinput() -> Bool {
         if (self.name.isEmpty) {

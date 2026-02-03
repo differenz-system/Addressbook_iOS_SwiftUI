@@ -7,15 +7,16 @@
 
 import Foundation
 
-public class ContactListViewModel: ObservableObject {
+@Observable
+public class ContactListViewModel {
     
     //MARK: - Variables
-    @Published var mainDictData: [ContactModel] = []
-    @Published var dictData: [ContactModel] = []
+    var mainDictData: [ContactModel] = []
+    var dictData: [ContactModel] = []
     let mainContactsList = IdentifiableKeys.header.sectionHeader
-    @Published var contactsList = IdentifiableKeys.header.sectionHeader
+    var contactsList = IdentifiableKeys.header.sectionHeader
     
-    @Published var searchText = ""
+    var searchText = ""
     
     func getData(a: [ContactList]) {
         let array = a.compactMap({ $0.name })

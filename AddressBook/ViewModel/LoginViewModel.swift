@@ -10,20 +10,19 @@ import CoreData
 //import FBSDKLoginKit
 import FirebaseAuth
 
-public class LoginViewModel: ObservableObject {
+@Observable
+public class LoginViewModel {
     
     //MARK: - Variables
-    @Published var username: String = ""
-    @Published var password: String = ""
+    var username: String = ""
+    var password: String = ""
     
-    @Published var showingAlert = false
-    @Published var errorMessage : String = ""
-    @Published var showingError = false
-    @Published var showLoadingIndicator = false
+    var showingAlert = false
+    var errorMessage : String = ""
+    var showingError = false
+    var showLoadingIndicator = false
     
 //    let loginManager = LoginManager()
-    
-    @Environment(\.managedObjectContext) var managedObjectContext
 }
 
 extension LoginViewModel{
@@ -91,27 +90,4 @@ extension LoginViewModel{
             self.showLoadingIndicator = false
         }
     }
-    
-//    Facebook Login API Call
-//    func facebookLogin(success: @escaping () -> ()) {
-//        loginManager.logIn(permissions: [.publicProfile, .email], viewController: nil) {
-//            loginResult in
-//            switch loginResult {
-//            case .failed(let error):
-//                print(error)
-//            case .cancelled:
-//                print("User cancelled login.")
-//            case .success(let grantedPermissions, let declinedPermissions, let accessToken):
-//                print("Logged in! \(grantedPermissions) \(declinedPermissions) \(String(describing: accessToken))")
-//                success()
-//                GraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name"]).start(completionHandler: { (connection, result, error) -> Void in
-//                    if (error == nil)
-//                    {
-//                        let fbDetails = result as! NSDictionary
-//                        print(fbDetails)
-//                    }
-//                })
-//            }
-//        }
-//    }
 }

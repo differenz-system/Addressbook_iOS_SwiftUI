@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ContactModel: Hashable {
+    var id = UUID().uuidString
     var isActive: Bool
     var name: String
     var mail: String

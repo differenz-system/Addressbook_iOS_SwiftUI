@@ -58,3 +58,13 @@ struct RequestParamater {
     static let kPassword                                = "password"
 }
 
+enum NetworkError: LocalizedError {
+    case noInternet
+
+    var errorDescription: String? {
+        switch self {
+        case .noInternet:
+            return "Please check your internet connection."
+        }
+    }
+}
